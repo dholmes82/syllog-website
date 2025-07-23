@@ -17,7 +17,7 @@ const supabase = createClient(
         appearance={{ theme: ThemeSupa }}
         theme="dark"
         providers={['google', 'discord']}
-        redirectTo="http://localhost:3000/auth/callback"
+        redirectTo="/auth/callback"
       />
     </div>
   );
